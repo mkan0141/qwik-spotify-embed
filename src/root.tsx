@@ -1,5 +1,4 @@
-import { Counter } from "./components/counter/counter";
-import { Logo } from "./components/logo/logo";
+import { SpotifyIframe } from "./components/spotify-iframe";
 
 export default () => {
   return (
@@ -9,8 +8,27 @@ export default () => {
         <title>Qwik Blank App</title>
       </head>
       <body>
-        <Logo />
-        <Counter />
+        <SpotifyIframe
+          src={
+            "https://open.spotify.com/embed/track/0msE3v0pQgGttnlZjrLzWj?utm_source=generator"
+          }
+          sizeType={"default"}
+        />
+        <div style={"display: flex; gap: 16px;"}>
+          <SpotifyIframe
+            src={
+              "https://open.spotify.com/embed/track/3Mlfyz8i3WNld5BMMDx8Pd?utm_source=generator"
+            }
+            sizeType={"compact"}
+          />
+          <SpotifyIframe
+            src={
+              "https://open.spotify.com/embed/track/476LxG97kKEd8LrQFWYCKo?utm_source=generator"
+            }
+            width={300}
+            height={160}
+          />
+        </div>
       </body>
     </>
   );

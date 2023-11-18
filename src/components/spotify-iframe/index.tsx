@@ -20,7 +20,7 @@ const SpotifyIframe = component$<SpotifyIframeProps>(
     sizeType,
     width = "100%",
     height = sizeType === "compact" ? "152px" : "352px",
-    frameBorder,
+    frameBorder = 0,
     allowFullScreen = true,
     allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
     ...props
