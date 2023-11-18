@@ -1,2 +1,4 @@
-export { Logo } from "./components/logo/logo";
-export { Counter } from "./components/counter/counter";
+export {
+  SpotifyIframe,
+  type SpotifyIframeProps,
+} from "./components/spotify-iframe";
