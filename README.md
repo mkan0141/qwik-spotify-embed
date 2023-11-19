@@ -1,4 +1,7 @@
 # qwik-spotify-embed
+[![npm version](https://badge.fury.io/js/qwik-spotify-embed.svg)](https://badge.fury.io/js/qwik-spotify-embed)　[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 A qwik component for spotify embed. You can easily create embeds using spotify embed url.
 
