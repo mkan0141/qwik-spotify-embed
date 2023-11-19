@@ -2,6 +2,8 @@
   "name": "qwik-spotify-embed",
   "version": "0.0.1",
   "description": "A spotify embed component for qwik",
+  "author": "mkan0141",
+  "license": "MIT",
   "main": "./lib/index.qwik.mjs",
   "qwik": "./lib/index.qwik.mjs",
   "types": "./lib-types/index.d.ts",
