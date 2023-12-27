@@ -1,5 +1,8 @@
 name: "Chromatic"
-on: push
+on:
+  push:
+    branches-ignore:
+      - "main"
 jobs:
   chromatic:
     runs-on: ubuntu-latest
