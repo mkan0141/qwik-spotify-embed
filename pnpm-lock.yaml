@@ -38,6 +38,9 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^6.7.5
     version: 6.11.0(eslint@8.54.0)(typescript@5.2.2)
+  chromatic:
+    specifier: ^10.2.0
+    version: 10.2.0
   eslint:
     specifier: ^8.51.0
     version: 8.54.0
@@ -4856,6 +4859,11 @@ packages:
   /chownr@2.0.0:
     resolution: {integrity: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==}
     engines: {node: '>=10'}
+    dev: true
+
+  /chromatic@10.2.0:
+    resolution: {integrity: sha512-UDVGWa2Fx9CLCpwnyfvFHGr0vGF0ooB1TugUdgOcjC9pJXiFa67i7oaXMyTfVRIFxlt/QkqOJwdqDqqlLFffCw==}
+    hasBin: true
     dev: true
 
   /ci-info@3.9.0:
