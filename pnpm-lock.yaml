@@ -7,7 +7,7 @@ settings:
 devDependencies:
   '@builder.io/qwik':
     specifier: 1.3.1
-    version: 1.3.1(@types/node@20.9.1)(undici@5.27.2)
+    version: 1.3.1(@types/node@20.9.1)(undici@6.2.1)
   '@storybook/addon-essentials':
     specifier: ^7.4.6
     version: 7.5.3(react-dom@18.2.0)(react@18.2.0)
@@ -63,8 +63,8 @@ devDependencies:
     specifier: ^5.2.2
     version: 5.2.2
   undici:
-    specifier: ^5.26.0
-    version: 5.27.2
+    specifier: ^6.0.0
+    version: 6.2.1
   vite:
     specifier: ^5.0.0
     version: 5.0.10(@types/node@20.9.1)
@@ -1425,7 +1425,7 @@ packages:
     dev: true
     optional: true
 
-  /@builder.io/qwik@1.3.1(@types/node@20.9.1)(undici@5.27.2):
+  /@builder.io/qwik@1.3.1(@types/node@20.9.1)(undici@6.2.1):
     resolution: {integrity: sha512-XbA/pzLVZJ7HXLApyk1jRVYTwZdHEq3vGcnOi/ZS7GKGvkEWKCRMWIV+5dVJKjBS0jxtYcj07w52HmkPbQiVMw==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
@@ -1433,7 +1433,7 @@ packages:
       undici: ^5.14.0
     dependencies:
       csstype: 3.1.2
-      undici: 5.27.2
+      undici: 6.2.1
       vite: 5.0.10(@types/node@20.9.1)
     transitivePeerDependencies:
       - '@types/node'
@@ -4538,6 +4538,7 @@ packages:
 
   /base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+    requiresBuild: true
     dev: true
 
   /better-opn@3.0.2:
@@ -4669,6 +4670,7 @@ packages:
 
   /buffer@5.7.1:
     resolution: {integrity: sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==}
+    requiresBuild: true
     dependencies:
       base64-js: 1.5.1
       ieee754: 1.2.1
@@ -4854,6 +4856,7 @@ packages:
 
   /chownr@1.1.4:
     resolution: {integrity: sha512-jJ0bqzaylmJtVnNgzTeSOs8DPavpbYgEr/b0YL8/2GO3xJEhInFmhKMUnEJQjZumK7KXGFhUy89PrsJWlakBVg==}
+    requiresBuild: true
     dev: true
 
   /chownr@2.0.0:
@@ -6263,6 +6266,7 @@ packages:
 
   /fs-constants@1.0.0:
     resolution: {integrity: sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==}
+    requiresBuild: true
     dev: true
 
   /fs-extra@11.1.1:
@@ -6749,6 +6753,7 @@ packages:
 
   /ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+    requiresBuild: true
     dev: true
 
   /ignore-walk@6.0.3:
@@ -8447,6 +8452,7 @@ packages:
 
   /mkdirp-classic@0.5.3:
     resolution: {integrity: sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==}
+    requiresBuild: true
     dev: true
 
   /mkdirp@0.5.6:
@@ -9520,6 +9526,7 @@ packages:
   /readable-stream@3.6.2:
     resolution: {integrity: sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==}
     engines: {node: '>= 6'}
+    requiresBuild: true
     dependencies:
       inherits: 2.0.4
       string_decoder: 1.3.0
@@ -10134,7 +10141,7 @@ packages:
     peerDependencies:
       '@builder.io/qwik': '>=0.15.2'
     dependencies:
-      '@builder.io/qwik': 1.3.1(@types/node@20.9.1)(undici@5.27.2)
+      '@builder.io/qwik': 1.3.1(@types/node@20.9.1)(undici@6.2.1)
       '@storybook/builder-vite': 7.5.3(typescript@5.2.2)(vite@5.0.10)
       '@storybook/docs-tools': 7.5.3
       magic-string: 0.30.5
@@ -10251,6 +10258,7 @@ packages:
 
   /string_decoder@1.3.0:
     resolution: {integrity: sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==}
+    requiresBuild: true
     dependencies:
       safe-buffer: 5.2.1
     dev: true
@@ -10418,6 +10426,7 @@ packages:
   /tar-stream@2.2.0:
     resolution: {integrity: sha512-ujeqbceABgwMZxEJnk2HDY2DlnUZ+9oEcb1KzTVfYHio0UE6dG71n60d8D2I4qNvleWrrXpmjpt7vZeF1LnMZQ==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dependencies:
       bl: 4.1.0
       end-of-stream: 1.4.4
@@ -10764,6 +10773,15 @@ packages:
   /undici@5.27.2:
     resolution: {integrity: sha512-iS857PdOEy/y3wlM3yRp+6SNQQ6xU0mmZcwRSriqk+et/cwWAtwmIGf6WkoDN2EK/AMdCO/dfXzIwi+rFMrjjQ==}
     engines: {node: '>=14.0'}
+    requiresBuild: true
+    dependencies:
+      '@fastify/busboy': 2.1.0
+    dev: true
+    optional: true
+
+  /undici@6.2.1:
+    resolution: {integrity: sha512-7Wa9thEM6/LMnnKtxJHlc8SrTlDmxqJecgz1iy8KlsN0/iskQXOQCuPkrZLXbElPaSw5slFFyKIKXyJ3UtbApw==}
+    engines: {node: '>=18.0'}
     dependencies:
       '@fastify/busboy': 2.1.0
     dev: true
