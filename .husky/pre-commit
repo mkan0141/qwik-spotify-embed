@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# check format
+pnpm fmt.check
+
+# check lint
+pnpm lint
+
+# check test
+pnpm test
