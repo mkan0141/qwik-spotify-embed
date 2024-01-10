@@ -12,6 +12,8 @@ They are wonderful tunes, so please give them a listen !! 🎵
 ## Basic Usage
 
 ```js
+import { SpotifyIframe } from "qwik-spotify-embed";
+
 export default component$(() => {
   return (
     <div>
