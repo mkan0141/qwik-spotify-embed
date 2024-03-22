@@ -54,7 +54,7 @@
     "@types/node": "^20.8.4",
     "@typescript-eslint/eslint-plugin": "^7.0.0",
     "@typescript-eslint/parser": "^7.0.0",
-    "chromatic": "^10.2.0",
+    "chromatic": "^11.0.0",
     "eslint": "^8.51.0",
     "eslint-plugin-qwik": "latest",
     "husky": "^9.0.0",
