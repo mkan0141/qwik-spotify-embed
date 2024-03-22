@@ -40,7 +40,7 @@ devDependencies:
     version: 7.0.1(eslint@8.54.0)(typescript@5.2.2)
   chromatic:
     specifier: ^10.2.0
-    version: 10.2.0
+    version: 10.9.6
   eslint:
     specifier: ^8.51.0
     version: 8.54.0
@@ -5670,9 +5670,17 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /chromatic@10.2.0:
-    resolution: {integrity: sha512-UDVGWa2Fx9CLCpwnyfvFHGr0vGF0ooB1TugUdgOcjC9pJXiFa67i7oaXMyTfVRIFxlt/QkqOJwdqDqqlLFffCw==}
+  /chromatic@10.9.6:
+    resolution: {integrity: sha512-1MoT+/U+vQwEiq2GuehPyStbqhxqHmM1B9pdpVU1dKh26userQg1FyOFYifkTgy+9reo2w2p7sAbc0JRd2kzlA==}
     hasBin: true
+    peerDependencies:
+      '@chromatic-com/cypress': ^0.5.2 || ^1.0.0
+      '@chromatic-com/playwright': ^0.5.2 || ^1.0.0
+    peerDependenciesMeta:
+      '@chromatic-com/cypress':
+        optional: true
+      '@chromatic-com/playwright':
+        optional: true
     dev: true
 
   /ci-info@3.9.0:
