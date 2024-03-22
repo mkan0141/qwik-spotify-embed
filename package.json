@@ -58,7 +58,7 @@
     "eslint": "^8.51.0",
     "eslint-plugin-qwik": "latest",
     "husky": "^9.0.0",
-    "np": "^9.0.0",
+    "np": "^10.0.0",
     "prettier": "^3.0.3",
     "storybook": "^8.0.0",
     "storybook-framework-qwik": "^0.4.0",
