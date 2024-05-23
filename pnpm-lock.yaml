@@ -28,7 +28,7 @@ devDependencies:
     version: 8.0.4(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.3)(vite@5.2.3)
   '@types/eslint':
     specifier: ^8.44.4
-    version: 8.56.6
+    version: 8.56.7
   '@types/node':
     specifier: ^20.8.4
     version: 20.11.30
@@ -3043,8 +3043,8 @@ packages:
     resolution: {integrity: sha512-TB/6hBkYQJxsZHSqyeuO1Jt0AB/bW6G7rHt9g7lML7SOF6lbgcHvw/Lr+69iqN0qxgXLhWKScAon73JNnptuDw==}
     dev: true
 
-  /@types/eslint@8.56.6:
-    resolution: {integrity: sha512-ymwc+qb1XkjT/gfoQwxIeHZ6ixH23A+tCT2ADSA/DPVKzAjwYkTXBMCQ/f6fe4wEa85Lhp26VPeUxI7wMhAi7A==}
+  /@types/eslint@8.56.7:
+    resolution: {integrity: sha512-SjDvI/x3zsZnOkYZ3lCt9lOZWZLB2jIlNKz+LBgCtDurK0JZcwucxYHn1w2BJkD34dgX9Tjnak0txtq4WTggEA==}
     dependencies:
       '@types/estree': 1.0.5
       '@types/json-schema': 7.0.15
